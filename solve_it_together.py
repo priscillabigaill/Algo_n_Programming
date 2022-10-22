@@ -63,5 +63,5 @@ print("The acceleration is ",acceleration)
 # Enter a noun: lion
 # A Shinigami bounced my invisible parka out of the watermelon as if he were a vegetarian fishing a lion out of his salad.
 
-verb,adjective,noun1,noun2,noun3 = input(print("Enter a verb, an adjective, and three nouns"))
+verb,adjective,noun1,noun2,noun3 = input(print("Enter a verb, an adjective, and three nouns")).split()
 print("A Shinigami " + (verb) + "my " + (adjective) + (noun3) + "out of the " + (noun2) + "as if he were a vegetarian fishing a " + (noun3) + "out of his salad.")
